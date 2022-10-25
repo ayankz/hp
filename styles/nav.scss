@@ -1,0 +1,33 @@
+nav {
+  position: absolute;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(15px);
+  left: 0;
+  right: 0;
+  padding: 10px 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  li {
+    margin-right: 40px;
+    list-style: none;
+    a {
+      color: $white;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 33px;
+      text-decoration: none;
+    }
+    &:last-child {
+      margin-right: 0px;
+      border: 1px solid $orange;
+      padding: 1px 40px;
+    }
+  }
+}
