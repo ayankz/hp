@@ -1,6 +1,33 @@
 #main {
   background-image: url("/assets//main_bg.svg");
   height: 100vh;
+  color: #ffffff;
+}
+
+.main__hero {
+  position: relative;
+  top: 214px;
+  left: 94px;
+  max-width: 510px;
+  width: 100%;
+}
+
+.hero-header {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+
+p {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+button {
+  margin-top: 50px;
 }
 
 nav {
@@ -83,6 +110,21 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 auto;
+}
+
+button {
+  /* padding: 17.5px 54.5px; */
+  width: 344px;
+  height: 70px;
+  background-color: #eb874f;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -48,3 +48,17 @@ body {
   font-weight: 400;
   margin: 0 auto;
 }
+button {
+  /* padding: 17.5px 54.5px; */
+  width: 344px;
+  height: 70px;
+  background-color: $orange;
+  color: $white;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}

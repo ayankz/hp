@@ -1,4 +1,28 @@
+@import "variables.scss";
 #main {
   background-image: url("/assets//main_bg.svg");
   height: 100vh;
+  color: $white;
+}
+.main__hero {
+  position: relative;
+  top: 214px;
+  left: 94px;
+  max-width: 510px;
+  width: 100%;
+}
+.hero-header {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+p {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+button {
+  margin-top: 50px;
 }
