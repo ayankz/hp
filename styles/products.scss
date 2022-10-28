@@ -1,0 +1,32 @@
+#product{
+
+  position: relative;
+}
+.product__item{
+  display: flex;
+  flex-wrap: nowrap;
+
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 91px;
+  justify-content: space-around;
+  &:nth-child(3){
+    padding-left: 51px;
+  }
+}
+.item-content{
+  max-width: 512px;
+  height: 240px;
+  color:#000000;
+  span{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+  }
+}

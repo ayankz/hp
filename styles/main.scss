@@ -1,6 +1,7 @@
 @import "variables.scss";
 #main {
-  background-image: url("/assets//main_bg.svg");
+  background: url("/assets//main_bg.svg")no-repeat;
+  background-size: cover;
   height: 100vh;
   color: $white;
 }
@@ -25,4 +26,5 @@ p {
 }
 button {
   margin-top: 50px;
+  cursor: pointer;
 }

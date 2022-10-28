@@ -1,0 +1,31 @@
+@import "variables.scss";
+#opportunities{
+  background: linear-gradient(55.62deg, #233A35 24.8%, #3BA38B 121.89%);
+  color:white;
+  padding-bottom: 55px;
+}
+h2{
+  margin-bottom: 20px;
+}
+.opp_item{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 96px;
+  padding-right: 180px;
+  img{
+    padding: 50px 0;
+    width: 400px;
+    height: 400px;
+  }
+}
+span{
+  max-width: 515px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 160%;
+}
+.green{
+  background: rgba(0, 0, 0, 0.22);
+}
