@@ -1,8 +1,8 @@
 @import "variables.scss";
 #main {
-  background: url("/assets/main_bg.svg")no-repeat;
+  background:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/main_bg.svg") no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 722px;
   color: $white;
 }
 .main__hero {

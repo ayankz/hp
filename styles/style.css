@@ -1,7 +1,7 @@
 #main {
-  background: url("/assets/main_bg.svg") no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/main_bg.svg") no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 722px;
   color: #ffffff;
 }
 
@@ -125,7 +125,7 @@ h2 {
 }
 
 span {
-  max-width: 515px;
+  max-width: 522px;
   font-weight: 500;
   font-size: 26px;
   line-height: 160%;
@@ -235,9 +235,6 @@ span {
   height: 34.83px;
   margin-top: 26px;
   justify-content: space-between;
-}
-.contact-icons img {
-  flex-basis: 34.83px;
 }
 
 @font-face {

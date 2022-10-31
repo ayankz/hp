@@ -8,16 +8,15 @@
   <link rel="stylesheet" href="styles/style.css" />
   <title>Document</title>
 </head>
-
 <body>
   <div class="container">
     <nav>
       <img src="assets/logo_hp.svg" alt="">
       <ul>
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Продукт</a></li>
-        <li><a href="#">Преимущества</a></li>
-        <li><a href="#">Заказать</a></li>
+        <li><a href="#main">Главная</a></li>
+        <li><a href="#product">Продукт</a></li>
+        <li><a href="#opportunities">Преимущества</a></li>
+        <li><a href="#footer">Заказать</a></li>
       </ul>
     </nav>
     <section id="main">
@@ -49,19 +48,22 @@
     <section id="opportunities">
       <h2>Новые возможности</h2>
       <div class="opp_item">
-        <span>Способен обеспечивать более 325 000 операций ввода-вывода в секунду для доступного ускорения приложений в рамках малого и среднего бизнеса.</span>
+        <span>Способен обеспечивать более <strong>325 000 </strong> операций ввода-вывода в секунду для доступного ускорения приложений в рамках малого и среднего бизнеса.</span>
         <img src="assets/rocket.svg" alt="rocket">
       </div>
       <div class="opp_item green">
         <img src="assets/server.svg" alt="server">
-        <span>Число операций ввода-вывода в секунду увеличено до 45 %  Пропускная способность последовательной передачи повышена на 70 % по сравнению  с MSA Gen 5 (в зависимости от протокола).</span>
+        <span><strong>Число операций ввода-вывода в секунду увеличено до 45%</strong> <br><br>Попускная способность последовательной передачи повышена на 70 % по сравнению <br>с MSA Gen 5 (в зависимости от протокола).</span>
       </div>
       <div class="opp_item">
-        <span>Новая архитектура хранилища MSA 6-го поколения (HW + SW), которая предоставляет модернизированную платформу HW с дополнительными ресурсами для таких функций, как Tiering 2.0, новая схема защиты RAID (MSA-DP+), новый оптимизированный для задач  веб-интерфейс и высоко оптимизированные данные управление через новый интерфейс RESTful.</span>
+        <span>Новая архитектура хранилища <strong>MSA 6-го поколения (HW + SW)</strong>, которая предоставляет модернизированную платформу HW с дополнительными ресурсами для таких функций, как
+          <strong>Tiering 2.0</strong>, новая схема защиты <strong>RAID (MSA-DP+)</strong>, новый оптимизированный для задач
+          <br>веб-интерфейс и высоко <br> оптимизированные данные
+          управление через новый интерфейс <strong>RESTful</strong>.</span>
         <img src="assets/memory.svg" alt="">
       </div>
     </section>
-    <footer>
+    <footer id="footer">
       <div class="footer__container">
         <div class="contacts">
           <span class="contacts-header">Контакты</span>
